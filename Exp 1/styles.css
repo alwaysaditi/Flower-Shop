@@ -1,0 +1,162 @@
+/*navbar styling*/
+.first-class{
+    background-color: pink;
+    height : 100px;
+    margin-top: 0;
+}
+
+#home-image{
+    width: 100px;
+    height : 100px; 
+}
+
+.navitems{
+    position : relative;
+    left : 300px;
+    bottom: 50px;
+}
+
+#cityheader
+{
+    position: relative;
+    bottom: 10px;
+}
+#searchbox{
+    position : relative;
+    left : 600px;
+    bottom: 100px;
+}
+
+.nav-options
+{
+    position : relative;
+    left : 900px;
+    bottom: 120px;
+}
+
+.right-buttons
+{
+    width : 20px;
+    height : 20px;
+}
+
+.button-text
+{
+    position : relative;
+    top: 5px;
+}
+/*second options styling*/
+.second-class{
+    background-color: lavender;
+    height : 50px;
+    margin-top: 10px;
+}
+
+#first-option{
+width : 60px;
+height : 30px;
+margin-left: 30px;
+margin-top: 10px;
+color: teal
+}
+.text-option
+{
+    font-size: medium;
+}
+
+#second-option{
+    width : 65px;
+    height : 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: purple
+    }
+
+    #third-option{
+        width : 70px;
+        height : 30px;
+        margin-left: 30px;
+        margin-top: 10px;
+        color: teal
+        }
+
+        #fourth-option{
+            width : 100px;
+            height : 30px;
+            margin-left: 50px;
+            margin-top: 10px;
+            color: purple
+            }
+
+            #fifth-option{
+                width : 120px;
+                height : 30px;
+                margin-left: 50px;
+                margin-top: 10px;
+                color: teal;
+                }
+
+        /*third div*/
+
+        .third_div
+        {
+            background-image: url('images/third.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            width : 2090px;
+            height : 100px;
+        }
+
+        #third_text
+        {
+           position : relative;
+           top : 70px;
+           left : 450px;
+           
+        }
+
+        .card {
+            /* Add shadows to create the "card" effect */
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+          }
+          
+          /* On mouse-over, add a deeper shadow */
+          .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+          }
+          
+          /* Add some padding inside the card container */
+          .container {
+            padding: 2px 16px;
+          }
+
+          .choices 
+          {
+              margin-top: 50px;
+          }
+
+          .card-format
+          {
+              width : 200px;
+              height: 200px;
+              margin : 100px;
+          }
+
+          table {
+            border-collapse: separate;
+            border-spacing: 50px 0;
+          }
+
+          .sub-headings
+          {
+              margin-left:600px;
+              margin-bottom: 20px;
+              text-decoration: underline;
+          }
+
+          #gifts
+          {
+              margin-top:100px;
+          }

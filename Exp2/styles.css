@@ -1,0 +1,104 @@
+.img-new {
+   
+    height : 50px;
+    width : 50px;
+    position :relative;
+    right : 20px;
+
+}
+
+.dropdown-class
+{
+    position :relative;
+    
+    
+}
+
+.navbar-form
+{
+    position:relative;
+    right: 250px;
+}
+.wallet
+{
+    position:relative;
+    right : 120px;
+}
+.sign-in
+{
+    position:relative;
+    right:110px;
+}
+
+.cart
+{
+   
+    position:relative;
+    right: 100px; 
+}
+
+.dropdown-class-one
+{
+    position:relative;
+    right : 20px;
+    color: blueviolet;
+    padding-top:20px;
+}
+.dropdown-class
+{
+    position: relative;
+    left : 40px;
+}
+.btn-danger
+{
+    background-color: pink;
+    color:black
+}
+
+.second-dropdown
+{
+    margin-top: 50px;
+   
+}
+
+.navbar-custom-one
+{
+    background-color: lavender;
+   
+    height: 50px;
+}
+
+.second-navbar-pink
+{
+    margin-right: 90px;
+}
+
+.btn-info
+{
+    background-color: pink;
+    color: black;
+    
+}
+
+h5{
+    margin-top: 40px;
+}
+
+
+.third-text{
+    position: relative;
+    right : 900px;
+}
+.new-img-first
+{
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+}
+.new-img
+{
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

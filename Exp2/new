@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7d383747ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+      /* Modify the background color */
+       
+      .navbar-custom {
+          background-color: pink;
+      }
+      /* Modify brand and text color */
+       
+      .navbar-custom .navbar-brand,
+      .navbar-custom .navbar-text {
+          color: green;
+      }
+  </style>
+  
+    <title>Flower Shop</title>
+  </head>
+  <body style="background-image: url('images/trial-img.png');">
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <nav class="navbar navbar-expand-lg navbar-custom " >
+      <a class="navbar-brand" href="index.html">
+       <img>
+
+      </img>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse " id="navbarSupportedContent"">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="navbar-brand" href="index.html">
+              <img  src="images/home.png" class ="img-new"style="width:100%"/>
+            
+           
+              <span class="sr-only">(current)</span></a>
+         
+         <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-class" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Delivery City
+  </button>
+  <div class="dropdown-menu ">
+    <a class="dropdown-item" href="#">Mumbai</a>
+    <a class="dropdown-item" href="#">Pune</a>
+    <a class="dropdown-item" href="#">Nashik</a>
+    <a class="dropdown-item" href="#">Thane</a>
+    <div class="dropdown-divider"></div>
+    
+  </div>
+</div>
+         
+        </ul>
+        <form class="form-inline my-2 my-lg-0 navbar-form">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search for flowers,gifts" aria-label="Search ">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <button class="btn btn-default my-2 my-sm-0 wallet" type="submit">
+          <span class="fa fa-wallet" aria-hidden="true"></span>
+           <div>Wallet</div>
+        </button>
+        <button class="btn btn-default my-2 my-sm-0 sign-in" type="submit"><span class="fa fa-sign-in-alt" aria-hidden="true"></span>
+          <div>Sign In</div></button>
+          <button class="btn btn-default my-2 my-sm-0 cart" type="submit"><span class="fa fa-shopping-cart" aria-hidden="true"></span><div>Cart</div></button>
+           
+          <div class="btn-group dropdown-class-one">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item" href="#"></a>
+              <div class="dropdown-divider"></div>
+              
+            </div>
+          </div>
+        </div>
+
+        
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-custom-one new-img-first" style="background-image: url('images/trial-img.png');" >
+    
+          <div class="btn-group  second-navbar-pink ">
+            <button type="button" class="btn btn-info dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item" href="#"></a>
+              <div class="dropdown-divider"></div>
+              
+            </div>
+          </div>
+
+          <div class="btn-group  second-navbar-pink ">
+            <button type="button" class="btn btn-danger dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item" href="#"></a>
+              <div class="dropdown-divider"></div>
+              
+            </div>
+          </div>
+          <div class="btn-group  second-navbar-pink ">
+            <button type="button" class="btn btn-info dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item" href="#"></a>
+              <div class="dropdown-divider"></div>
+              
+            </div>
+          </div>
+          <div class="btn-group  second-navbar-pink ">
+            <button type="button" class="btn btn-danger dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item" href="#"></a>
+              <div class="dropdown-divider"></div>
+              
+            </div>
+          </div>
+          <div class="btn-group  second-navbar-pink ">
+            <button type="button" class="btn btn-info dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item" href="#"></a>
+              <div class="dropdown-divider"></div>
+              
+            </div>
+          </div>
+          <div class="btn-group  second-navbar-pink ">
+            <button type="button" class="btn btn-danger dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item" href="#"></a>
+              <div class="dropdown-divider"></div>
+              
+            </div>
+          </div>
+          <div class="btn-group  second-navbar-pink ">
+            <button type="button" class="btn btn-info dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Franchise</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item" href="#"></a>
+              <div class="dropdown-divider"></div>
+              
+            </div>
+         
+        </div>
+
+    </nav>
+  </div>
+  <div >
+<h1 class="text-white third-text">Delivering smiles to your loved ones across India</h1>
+</div>
+<div class="bg-image new-img" style="
+      background-image: url('images/trial-img.png');
+      height: 100vh;
+    ">
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+    
+    </div>
+  </div>
+</div>
+  </body>
+</html>
